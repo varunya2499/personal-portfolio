@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 function Footer() {
   const navigationLinks = [
@@ -11,9 +11,9 @@ function Footer() {
   ]
 
   const socialLinks = [
-    { name: 'LinkedIn', icon: FaLinkedin, href: '#' },
-    { name: 'GitHub', icon: FaGithub, href: '#' },
-    { name: 'Twitter', icon: FaTwitter, href: '#' }
+    { name: 'LinkedIn', icon: FaLinkedin, href: 'http://www.linkedin.com/in/varunya-kajeendran-0793b032b' },
+    { name: 'Instagram', icon: FaInstagram, href: 'https://www.instagram.com/varun_yajiv?igsh=aHNuNzk4MXhxMThh&utm_source=qr' },
+    { name: 'Email', icon: FaEnvelope, href: 'mailto:varunkajeen@gmail.com' }
   ]
 
   return (

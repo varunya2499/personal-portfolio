@@ -48,9 +48,12 @@ function Hero() {
           approaching challenges with a clear mind and well-planned moves, both on the board and in the community.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-pink-600 hover:scale-105 transition-all duration-300">
-            Download CV
-          </button>
+        <a href="resume.pdf" download>
+  <button className="bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-pink-600 hover:scale-105 transition-all duration-300">
+    Download CV
+  </button>
+</a>
+
           <button
             className="border-2 border-white text-white px-6 py-3 rounded-full hover:bg-white/10 hover:scale-105 transition-all duration-300"
             onClick={() => setIsOpen(true)}
@@ -68,10 +71,10 @@ function Hero() {
             <p className="text-gray-600 mb-6">Feel free to reach out via any platform below:</p>
 
             <div className="flex justify-center gap-6 text-2xl text-pink-600">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+              
+              <a href="http://www.linkedin.com/in/varunya-kajeendran-0793b032b" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
               <a href="mailto:varunkajeen@gmail.com"><FaEnvelope /></a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://www.instagram.com/varun_yajiv?igsh=aHNuNzk4MXhxMThh&utm_source=qr" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             </div>
 
             <button

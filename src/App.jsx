@@ -7,6 +7,7 @@ import Achievements from "./components/Achievements"
 import Reference from "./components/Reference"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
+import Gallary from "./components/Gallary"
 function App() {
 
 
@@ -36,6 +37,11 @@ function App() {
 <div id="achievements">
   <Achievements />
 </div>
+
+<div id="gallary">
+  <Gallary />
+</div>
+
      {/* <Reference /> */}
      <Footer />
     </>
