@@ -35,7 +35,7 @@ function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[url('hero.png')] flex items-center justify-center px-4 py-16 relative">
+    <div className="min-h-screen bg-[url('/personal-portfolio/hero.png')] flex items-center justify-center px-4 py-16 relative">
       <div className="text-center max-w-xl">
         <p className="text-gray-300 text-xl font-bold mb-4">Hi, I'm Varunya Kajeendran</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
